@@ -1,0 +1,104 @@
+body {
+    background-color: var(--cui-tertiary-bg);
+    color-scheme: light;
+  }
+  
+  .custom-nav-item {
+    list-style-type: none;
+    margin-top: 25px;
+    margin-left: 6px;
+  }
+  
+  .custom-nav-container {
+    max-height: 800px;
+    overflow-y: auto;
+  }
+  
+  .custom-nav-container::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  .custom-nav-container::-webkit-scrollbar-track {
+    /* background: #f1f1f1; */
+  }
+  
+  .custom-nav-container::-webkit-scrollbar-thumb {
+    /* background-color: #888; */
+    /* border-radius: 6px; */
+    /* border: 3px solid #f1f1f1; */
+  }
+  
+  .custom-nav-link {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .custom-nav-link:hover {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .custom-nav-link .badge {
+    margin-left: auto;
+    background-color: #17a2b8;
+    color: #ffffff;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+  }
+  
+  .custom-nav-link .icon {
+    margin-right: 0.75rem;
+  }
+  
+  .custom-nav-link.active {
+    background-color: #0056b3;
+    color: #ffffff;
+  }
+  
+  .custom-nav-link.active .badge {
+    background-color: #007bff;
+  }
+  
+  .custom-modal-header {
+    padding: 0.5rem 1rem !important;
+    border-bottom: 1px solid #ddd;
+    background-color: #3095E5;
+    color: #fff;
+  }
+
+  
+  
+  
+  .custom-modal-title {
+    margin: 0;
+  }
+  
+  /* Ensure the modal body and content are visible */
+  .c-modal-body {
+    /* background-color:white ; */
+    background-color: #f8f9fa; 
+    color: #000; /* Ensure text is visible */
+  }
+  
+  .c-modal {
+    background-color: rgba(0, 0, 0, 0.5); /* Ensure modal backdrop is not too transparent */
+  }
+  .no-scroll::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* Chrome/Safari/Webkit */
+  }
+  
+  .no-scroll {
+    -ms-overflow-style: none;  /* IE 10+ */
+    scrollbar-width: none;  /* Firefox */
+    overflow-y: scroll; /* Ensure the content is scrollable */
+  }
