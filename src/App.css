@@ -71,7 +71,7 @@ body {
   .custom-modal-header {
     padding: 0.5rem 1rem !important;
     border-bottom: 1px solid #ddd;
-    background-color: #3095E5;
+    background-color: #bd2937;
     color: #fff;
   }
 
@@ -85,7 +85,7 @@ body {
   /* Ensure the modal body and content are visible */
   .c-modal-body {
     /* background-color:white ; */
-    background-color: #f8f9fa; 
+    background-color: #f3ebec; 
     color: #000; /* Ensure text is visible */
   }
   

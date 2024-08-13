@@ -121,3 +121,7 @@
     --cui-btn-disabled-color: #3095E5;
     --cui-btn-shadow: rgba(88, 86, 214, 0.5);
 }
+.card-header{
+  background-color: #bd2937;
+  color: #fff;
+}
