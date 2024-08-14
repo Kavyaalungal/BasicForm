@@ -1,32 +1,3 @@
-.leftside{
-    width: 300px;
-  
-  }
-  .border-paper{
-    padding: 16px; 
-  border: 1px solid rgba(0, 0, 0, 0.12);
-  background-color: #fff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  margin-top: 10px;
-  height: auto;
-  }
-  .btn-primary {
-    --cui-btn-color: #fff;
-    --cui-btn-bg: #3095E5;
-    --cui-btn-border-color: #3095E5;
-    --cui-btn-hover-color: #fff;
-    --cui-btn-hover-bg: #3095E5;
-    --cui-btn-hover-border-color: #3095E5;
-    --cui-btn-focus-shadow-rgb: 113, 111, 220;
-    --cui-btn-active-color: #fff;
-    --cui-btn-active-bg: #3095E5;
-    --cui-btn-active-border-color: #3095E5;
-    --cui-btn-active-shadow: inset 0 3px 5px rgba(8, 10, 12, 0.125);
-    --cui-btn-disabled-color: #fff;
-    --cui-btn-disabled-bg: #3095E5;
-    --cui-btn-disabled-border-color: #3095E5;
-}
 .date-picker {
     --cui-date-picker-zindex: 1000;
     --cui-date-picker-font-family: ;
@@ -110,18 +81,21 @@
     color: var(--cui-calendar-cell-selected-color);
     background-color: #3d99f5;
 }
-.btn-ghost-primary {
-    --cui-btn-color: #3095E5;
-    --cui-btn-hover-bg: #3095E5;
-    --cui-btn-hover-border-color: #3095E5;
-    --cui-btn-hover-color: #fff;
-    --cui-btn-active-bg: #3095E5;
-    --cui-btn-active-border-color: #3095E5;
-    --cui-btn-active-color: #234e72;
-    --cui-btn-disabled-color: #3095E5;
-    --cui-btn-shadow: rgba(88, 86, 214, 0.5);
-}
+
 .card-header{
   background-color: #bd2937;
   color: #fff;
+}
+.button{
+  background-color: #bb4d58 !important;
+}
+.button:hover{
+  background-color: #bd2937 !important;
+}
+
+
+@media (max-width: 768px) {
+  .custom-margin {
+    margin-top: 30px; /* Adjust this value as needed for smaller screens */
+  }
 }

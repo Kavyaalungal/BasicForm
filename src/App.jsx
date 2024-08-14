@@ -3,6 +3,7 @@ import { CNavItem, CNavLink, CModal, CModalHeader, CModalTitle, CModalBody, CMod
 import 'bootstrap/dist/css/bootstrap.min.css'
 import BasicForm from '../src/basicfrom/BasicForm'
 import './App.css';
+import Patient from './basicfrom/Patient';
 function App() {
  
 
@@ -15,6 +16,7 @@ return (
     {/* <CButton color="primary" onClick={() => setVisibleLg(!visibleLg)}>Large modal</CButton>
     <CButton color="primary" onClick={() => setVisibleSm(!visibleSm)}>Small modal</CButton> */}
     <CModal
+    className='custom-modal'
       size="xl"
       visible={visibleXL}
       onClose={() => setVisibleXL(false)}
@@ -24,7 +26,8 @@ return (
         <CModalTitle id="OptionalSizesExample1" className='custom-modal-title '>Patient Registartion</CModalTitle>
       </CModalHeader>
       <CModalBody className='c-modal-body'>
-        <BasicForm/>
+        <Patient/>
+        {/* <BasicForm/> */}
       </CModalBody>
     </CModal>
   
